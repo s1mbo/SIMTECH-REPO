@@ -1,0 +1,29 @@
+<addons>
+<addon id="plugin.video.simtechwizard" name="Robbie's SIMTECH Wizard" version="1.0" provider-name="SIMTECH @s1mbo1980">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SIMTECH by Robbie Sim @s1mbo1980</summary>
+    <description lang="en">Update automatically to the latest version of Robbie's SIMTECH build!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.bigjoewizard" name="Big Joes Wizard" version="1.0" provider-name="SIMTECH @s1mbo1980">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">build by joe feeley @bigjoe9430</summary>
+    <description lang="en">Update automatically to the latest version of big joes build!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>
